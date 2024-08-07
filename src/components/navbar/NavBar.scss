@@ -1,0 +1,59 @@
+.navBar_main_container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  // align-items:;
+  justify-content: space-between;
+  //   border: 1px solid white;
+
+  &__navbar_windows {
+    height: 100%;
+    width: 5%;
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  &__navbar_searchBar {
+    // float: left;
+    height: 100%;
+    width: 20%;
+    // border-radius: 15px;
+    // border: 1px solid white;
+    &__input {
+      width: max-content;
+      height: max-content;
+      border: 1px solid rgb(5, 4, 4);
+      border-radius: 10px;
+    }
+  }
+
+  &__navbar_combined {
+    box-sizing: border-box;
+    height: 100%;
+    width: 30%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icon {
+      box-sizing: border-box;
+      height: 100%;
+      width: 30%;
+
+      &__img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}

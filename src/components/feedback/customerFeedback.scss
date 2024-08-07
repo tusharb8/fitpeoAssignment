@@ -1,0 +1,17 @@
+.feedback__main{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    &__title{
+
+
+
+        &__content{
+            height: 100%;
+            width: 80%;
+        }
+
+
+    }
+}

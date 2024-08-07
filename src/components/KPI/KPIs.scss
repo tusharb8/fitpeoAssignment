@@ -1,0 +1,44 @@
+.main-kpi-content-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 22);
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    // padding: 0px 10px;
+    
+    &__mini-container{
+        box-sizing: border-box;
+        padding-left: 10px;
+        width: 20%;
+        height: 90%;
+        // border: 2px solid white;
+        border-radius: 10px;
+        justify-content: space-between;
+        background-color: rgb(32, 32, 42);
+
+
+
+        &__name{
+            font-size: 0.8rem;
+        }
+
+
+        &__icon{
+            height: 50%;
+            width:80%;
+
+
+            &__img{
+                height: 100%;
+                width: 35%;
+                font-size: 10px;
+            }
+        }
+    }
+    
+
+
+}

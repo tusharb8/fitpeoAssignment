@@ -1,0 +1,149 @@
+.Layout-main-container{
+    box-sizing: border-box;
+    width: 98vw;
+    height: 98vh;
+    // border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__navbar-cont{
+        width: 100%;
+        height: 5%;
+        // border: 1px solid red;
+        background-color: rgb(32, 32, 42);
+    }
+
+    &__content-cont{
+        width: 100%;
+        height: 94.5%;
+        // border: 1px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        &__leftNavbar-cont{
+            width: 5%;
+            height: 100%;
+            // border: 1px solid white;
+            background-color: rgb(32, 32, 42);
+        }
+        &__right-content{
+            box-sizing: border-box;
+            width: 94.5%;
+            height: 100%;
+            // border: 1px solid rgb(63, 220, 28);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgb(20, 20, 22);
+
+            &__title{
+                width: 98%;
+                height: 5%;
+                // border: 1px solid rgb(179, 57, 209);
+            }
+
+            &__article-cont{
+                width: 98%;
+                height: 94.5%;
+                // border: 1px solid rgb(34, 214, 73);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+
+                &__left-cont{
+                    width: 65%;
+                    height: 100%;
+                    // border: 1px solid rgb(216, 86, 214);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    &__summary{
+                        width: 100%;
+                        height: 18%;
+                        // border: 1px solid rgb(216, 86, 214);
+                        // background-color: rgb(32, 32, 42);
+                        border-radius: 10px;
+                        padding: 5px;
+                        box-sizing: border-box;
+                    }
+
+                    &__activity{
+                        width: 100%;
+                        align-items: center;
+                        height: 28%;
+                        // border: 1px solid rgb(216, 86, 214);
+                        background-color: rgb(32, 32, 42);
+                        border-radius: 10px;
+                        padding: 5px;
+                        box-sizing: border-box;
+                        
+                    }
+
+                    &__table{
+                        width: 100%;
+                        height: 48%;
+                        // border: 1px solid rgb(216, 86, 214);
+                        background-color: rgb(32, 32, 42);
+                        border-radius: 10px;
+                        padding: 5px;
+                        box-sizing: border-box;
+                        overflow-y: scroll;
+                    }
+                }
+
+                &__right-cont{
+                    width: 34%;
+                    height: 100%;
+                    // border: 1px solid rgb(216, 86, 214);
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    &__summary{
+                        width: 100%;
+                        height: 18%;
+                        // border: 1px solid rgb(216, 86, 214);
+                        // background-color: red
+                        background-color: rgb(32, 32, 42);
+                        border-radius: 10px;
+                        padding: 5px;
+                        box-sizing: border-box;
+                    }
+
+                    &__activity{
+                        width: 100%;
+                        height: 28%;
+                        // border: 1px solid rgb(216, 86, 214);
+                        background-color: rgb(32, 32, 42);
+                        border-radius: 10px;
+                        padding: 5px;
+                        box-sizing: border-box;
+                    }
+
+                    &__table{
+                        width: 100%;
+                        height: 48%;
+                        // border: 1px solid rgb(216, 86, 214);
+                        background-color: rgb(32, 32, 42);
+                        border-radius: 10px;
+                        padding: 5px;
+                        box-sizing: border-box;
+                       
+                        overflow-y: scroll;
+                    }
+                }
+            }
+        }
+        
+    }
+}

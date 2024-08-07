@@ -1,0 +1,38 @@
+.mainMenuContainer{
+    height:95vh;
+    /* width:80vh; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid white; */
+    /* background-color: aquamarine; */
+
+
+}
+.mainTitleContainer{
+    background-color: aquamarine;
+    height: 10%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.componentContainer{
+height: 300px;
+width: 350px;
+/* border: 2px solid black; */
+}
+.titleContainer{
+height:10%;
+width: 100%;
+border: 2px solid black;
+}
+.mainImageContainer{
+height:200px;
+width: 300px;
+border: 2px solid black;
+border-radius: 15px;
+}
